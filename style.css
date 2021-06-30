@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.header{
+    background: linear-gradient(#e9b9a7,#b24c5a);
+}
+.container{
+    margin: 0 auto;
+    max-width: 936px;
+}
+
+.header .container{
+    padding: 44px 0 0 30px;
+}
+.nav{
+    text-align: right;
+}
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+.menu > li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1px;
+    position: relative;
+}
+.menu > li > a {
+     font-size: 14px;
+     color: #ffffff;
+     text-decoration: none;
+     width: 132px;
+     display: block;
+     text-align: center;
+     line-height: 38px;
+     border-radius: 5px 5px 0 0;
+     background-color: #b24c5a;
+     margin-top: 5px;
+}
+.menu > li > a:hover{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: darkorange;
+    cursor: pointer;
+}
+.subnav{
+position: absolute ;
+    top: 100%;
+    left: 0;
+    width: 172px;
+    background-color: darkorange;
+    padding-top: 6px;
+    display: none;
+
+}
+.subnav  li {
+
+}
+.subnav a{
+ display: block;
+ font: 400 11px Arial, sans-serif;
+    color: white;
+    text-align: left;
+    height: 25px;
+    cursor: pointer;
+    padding: 0 8px;
+    box-sizing: border-box;
+    padding-top: 6px;
+}
+ul.subnav > li > a{
+    text-decoration: none;
+
+   }
+ul{
+    list-style: none;
+}
+.subnav a:hover{
+    font: 400 12px Tahoma, sans-serif;
+    background-color: brown;
+    color: white;
+}
+.menu > li:hover .subnav{
+    display: block;
+}
+.menu > li:last-of-type .subnav{
+    left: auto;
+    right: 0;
+}
+/*Section main*/
+.main{
+background-color: navajowhite;
+padding: 6px 0 7px;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+}
+.main .container{
+border: 1px solid #e9b9a7;
+border-radius: 7px;
+background-position: center;
+background-size:cover;
+padding: 105px 38px 88px;
+background-image: url(buffy_main.jpg);
+text-align: right;
+}
+.head{
+font-size: 28px;
+color: white;
+line-height: 31px;
+margin-bottom: 17px;
+font-weight: 400px;
+}
+.head span{
+font-style: italic;
+font-size: 30px;
+text-transform: uppercase;
+color: white;
+}
+.btn {
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px 12px;
+    display: inline-block;
+    }
+.main .btn{
+    background-color: darkorange;
+}
+/*Section About*/
+.about{
+    background-color: navajowhite;
+    padding: 12px 0 20px;
+}
+.about .container{
+
+}
+.about_item{
+width: 299px;
+display: inline-block;
+vertical-align: top;
+border: 1px solid white;
+padding: 0 25px;
+box-sizing: border-box;
+border-radius: 7px;
+height: 600px;
+}
+.about_title{
+border-bottom: 1px dotted white;
+
+}
+.about_img{
+display: block;
+width: 100%;
+border-radius: 5px;
+border: 1px solid white;
+box-sizing: border-box;
+
+}
+.about_text{
+font: 400 12px/17px Arial, sans-serif;
+    padding-left: 7px;
+}
+.about_item .btn{
+background-color: darkorange;
+    display: inline-block;
+    margin-bottom: 29px;
+    margin-top: 15px;
+}
+/*Section services*/
+ul.services_list > li > a{
+    text-decoration: none;
+    color: darkorange;
+    }
+.services_left .btn{
+background-color: darkorange;
+    margin-bottom: 17px;
+}
+.services_right .btn{
+    background-color: darkorange;
+}
+.services{
+    background: navajowhite;
+    }
+.services_left{
+display: inline-block;
+    vertical-align: top;
+    width: 622px;
+    margin-rigth:6px;
+    padding-top: 30px;
+}
+.services_right{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    padding-top: 30px;
+}
+
+.services_img{
+border-radius: 5px;
+border:1px solid white;
+float: left;
+box-sizing: border-box;
+margin-right: 5px;
+}
+/*Footer*/
+.footer{
+    background-color: brown;
+    padding: 17px 0 18px;
+    border-top: 1px solid white;
+    font: 400 10px Arial, sans-serif;
+    color: white;
+}
+.footer_icon{
+
+}
+.footer_icon a{
+display: inline-block;
+cursor: pointer;
+float:left;
+}
+.footer_nav{
+padding-right: 40px;
+
+}
+.footer_nav li{
+font: 400 10px Arial, sans-serif;
+color: white;
+
+}
+.footer_nav a{
+float: right;
+color: white;
+display: block;
+margin: 0 20px;
+margin-top: 10px;
+}
+
+.facebook_img{
+    padding-right:1px;
+    padding-top: 5px;
+}
+.twitter_img{
+    padding-right: 1px;
+    padding-top: 5px;
+}
+.youtube_img {
+    padding-right: 6px;
+    padding-top: 3px;
+}
+.instagram_img{
+    padding-right: 9px;
+    padding-top: 10px;
+}
+.email{
+    padding-top: 7px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul.footer_nav > li > a{
+    color: white;
+    text-transform: uppercase;
+
+}
